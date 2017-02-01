@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<head>
+<title>Car World</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Kumar+One" rel="stylesheet">
+<style>
+body {
+  font-family: helvetica, sans-serif;
+  margin: 0 auto;
+  max-width: 800px;
+  background:url("img/wall.jpg");
+}
+div {
+  height: 400px;
+  background-size:cover;
+  position: relative;
+  margin: 40px 0 0 0;
+  border-radius: 12px;
+}
+h1 {
+  font-family: 'Kumar One', cursive;
+  text-align: center;
+  font-size: 75px;
+  color: white;
+  margin: 30px 0 0 0;
+}
+h2 {
+  text-align: center;
+  color: #BF7B14;
+  margin: 0px 0 40px 0;
+  font-family: 'Kumar One', cursive;
+  font-size: 30px;
+}
+p {
+  color:#E8EDEC;
+  background: black;
+  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  padding: 10px;
+  line-height: 28px;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  height: 30px;
+  transition: height .5s;
+  -webkit-transition: height .5s;
+  -moz-transition: height .5s;
+}
+
+small {
+  opacity: 0;
+}
+
+.show-description p {
+  height: 200px;
+}
+
+.show-description small {
+  opacity: 1;
+}
+
+.first{
+  background-image: url("img/1car.jpg");
+}
+.second{
+  background-image: url("img/2car.jpg");
+}
+.third{
+  background-image: url("img/3car.jpg");
+}
+.fourth{
+  background-image: url("img/4car.jpg");
+}
+.fifth{
+ background-image: url("img/5car.jpg");
+}
+.price {
+  float: right;
+  font-size: 25px;
+}
+@media (max-width: 500px) {
+  h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    line-height: 40px;
+  }
+  h2 {
+    font-size: 20px;
+    margin: 20px 0 30px 0;
+  }
+  div {
+    margin: 20px 12px 0 12px;
+  }
+  p {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  small {
+    font-size: 16px;
+  }
+}
+</style>
+</head>
+<body>
+<h1>CAR WORLD</h1>
+<h2>Top 5 Cars of the World</h2>
+<div class="first">
+  <p>Koenigsegg CCXR Trevita<span class="price">$4.8 million</span><br />
+  <small>Koenigsegg makes its first appearance on our list with the CCXR Trevita, and it does so as the most expensive street-legal production car in the world. Why so much coin? With no exaggeration, the car is literally coated in diamonds … and diamonds aren’t cheap.
+For the Trevita, the Swedish manufacturer developed a new exterior finish called the Koenigsegg Proprietary Diamond Weave, which involves coating carbon fibers with a diamond dust-impregnated resin. We can’t even fathom how much the touch-up paint costs.</small></p>
+</div>
+
+<div class="second">
+  <p>Lamborghini Veneno<span class="price">$4.5 million</span><br />
+  <small>Poison. That’s the name Lamborghini chose for the modified Aventador you see above — translated from Italian of course — built to celebrate the automaker’s 50th birthday. We can’t speak for the company’s motivations, but the name is fitting for a vehicle that looks so positively deadly, so undeniably venomous.
+The car is absolutely stunning from every angle, and to this day, we’re not convinced it isn’t an alien spacecraft surveying our planet for eventual takeover. It just doesn’t seem real. The only thing more remarkable than the look is the price — a whopping $4.5 million.</small></p>
+</div>
+  
+<div class="third">
+  <p>W Motors Lykan Hypersport<span class="price">$3.4 million</span><br />
+  <small>You may recall the Lykan Hypersport from its starring role in the blockbuster Furious 7, where the Lebanese supercar crashed through not one, not two, but three skyscrapers in Dubai. In a franchise filled with high-end exotics and one-off custom creations, the fact that the Hypersport got so much focus is a testament to its magnetism.
+Let’s start with the styling, which includes jewel-encrusted headlights, scissor doors, and an interior ripped straight from science fiction. It looks like a pissed off armored car from the future, and its performance is right on par with its image. The Hypersport boasts a 3.7-liter, twin-turbo flat-six that yields 770hp and 708 lb-ft.</small></p>
+</div>
+<div class="fourth">
+  <p>Limited Edition Bugatti Veyron by Mansory Vivere<span class="price">$3.4 million</span><br />
+  <small>This list wouldn’t be complete without some version of the mighty Bugatti Veyron. We’re shining our spotlight on the the Mansory Vivere edition here, because not only is it one of the fastest cars in the world, it’s one of the most expensive.
+Augmented by German witch doctors Mansory, the 1,200hp Veyron starts out as a Grand Sport Vitesse Roadster, only to be adorned with a gorgeous carbon-fiber body, a new spoiler package,    upgraded LED lights, a revamped cabin, and a redesigned front grill. Further classifying the Veyron as a work of art, maps of historic race events like the Targa Florio are laser etched into the exterior and interior. Oh, and it can do 254 mph.</small></p>
+</div>
+<div class="fifth">
+  <p>Ferrari Pininfarina Sergio<span class="price">$3 million</span><br />
+  <small>With an asking price of $3 million, the Ferrari Sergio isn’t the most expensive car on our list. It is, however, one of the most highly-coveted vehicles in the world, as only six were ever made.
+Crafted by legendary Italian design house Pininfarina, the Sergio is essentially a Ferrari 458 Spider with a completely new body and interior. That means a 4.5-liter V8 sends a whopping 562hp to the rear wheels, but because the Sergio is lighter than the 458, it’s quicker and handles better. The new body doesn’t just save weight — it’s chock-full of interesting details like aerodynamic headrests that are built directly into the roll cage.</small></p>
+</div>
+
+<script>
+  $('div').on('click', function() {
+      $(this).toggleClass('show-description');
+  });
+</script>
+
+</body>
